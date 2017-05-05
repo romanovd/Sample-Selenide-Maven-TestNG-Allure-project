@@ -1,9 +1,8 @@
-Selenide+TestNG+Allure+Maven Test
+#H1 Selenide+TestNG+Allure+Maven Test
 
 This is Selenium automation test which is doing navigation of "Our Offers" page, makes several clicks on checkboxes and validate number of displayed offers.
 
-Preconditions
-
+#H2 Preconditions
 This test is based on Chrome Driver (WebDriver for Chrome)
 
 In order to run this test the following steps are need to be done:
@@ -12,22 +11,22 @@ Ensure Chromium/Google Chrome is installed in a recognized location.
 Download the ChromeDriver binary for your platform.
 Help WebDriver find the downloaded ChromeDriver executable. Include the ChromeDriver location in your PATH environment variable
 
-How to run
+#H2 How to run
 
 Execute test maven goal and pass additional command line parameter:
 mvn test -Dselenide.browser=chrome 
 
-How to open reports
+#H2 How to open reports
 
 In order to generate Allure reports run site maven goal. Allure reports can be opened by opening target/site/allure-maven-plugin/index.html file.
 Please note, since Chrome limitations it is not possible to open local files /images/etc. from local file system. 
 Use Firefox or other browser, which is capable to work with localy stored content
 
-Run Demo
+#H2 Run Demo
 Run runtest.cmd in Windows in order to :
-clean previous results
-run test
-generate reports
-open results in Firefox
+  clean previous results
+  run test
+  generate reports
+  open results in Firefox
 
-Links:
+
