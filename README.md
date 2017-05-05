@@ -14,7 +14,7 @@ Help WebDriver find the downloaded ChromeDriver executable. Include the ChromeDr
 ## How to run
 
 Execute test maven goal and pass additional command line parameter:
-mvn test -Dselenide.browser=chrome 
+`mvn test -Dselenide.browser=chrome `
 
 ## How to open reports
 
