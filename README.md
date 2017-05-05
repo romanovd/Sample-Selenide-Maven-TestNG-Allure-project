@@ -14,6 +14,7 @@ Help WebDriver find the downloaded ChromeDriver executable. Include the ChromeDr
 ## How to run
 
 Execute test maven goal and pass additional command line parameter:
+
 `mvn test -Dselenide.browser=chrome `
 
 ## How to open reports
@@ -25,9 +26,13 @@ Use Firefox or other browser, which is capable to work with localy stored conten
 ## Run Demo
 Run runtest.cmd in Windows in order to :
   `mvn clean
+  
   mvn test -Dselenide.browser=chrome 
+  
   mvn site
+  
   open results in Firefox (./target/site/allure-maven-plugin/index.html)
+  
   `
 
 
