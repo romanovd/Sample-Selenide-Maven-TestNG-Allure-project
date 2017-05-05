@@ -25,6 +25,7 @@ Use Firefox or other browser, which is capable to work with localy stored conten
 
 ## Run Demo
 Run runtest.cmd in Windows in order to :
+
   `mvn clean
   
   mvn test -Dselenide.browser=chrome 
